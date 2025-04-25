@@ -1,6 +1,9 @@
 ĐỀ TÀI: THÙNG RÁC THÔNG MINH
+
 Platform triển khai: openHAB thông qua giao thức MQTT
+
 Nhóm 4 BDU thành viên gồm : Lê Duy Tuấn Anh 23050098 và Lý Lâm Vũ 23050102
+
 - Thiết bị sẽ sử dụng: 
 •	ESP8266 Node MCU V3
 •	Cảm biến siêu âm HC-SR04
@@ -10,6 +13,7 @@ Nhóm 4 BDU thành viên gồm : Lê Duy Tuấn Anh 23050098 và Lý Lâm Vũ 23
 •	Còi Buzzer
 •	Dây cắm Breadboard (đực - đực, cái - cái, đực - cái)
 •	Dây USB
+
 -	Nguyên lý hoạt động:
 Khi có rác được đưa vào thùng:
 •	Hệ thống sử dụng cảm biến siêu âm để phát hiện khoảng cách đến vật thể.
