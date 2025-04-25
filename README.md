@@ -2,9 +2,9 @@
 
 Platform triển khai: openHAB thông qua giao thức MQTT
 
-Nhóm 4 BDU thành viên gồm : Lê Duy Tuấn Anh 23050098 và Lý Lâm Vũ 23050102
+Nhóm 4 BDU, thành viên gồm : Lê Duy Tuấn Anh 23050098 và Lý Lâm Vũ 23050102
 
-- Thiết bị sẽ sử dụng:
+-- Thiết bị sẽ sử dụng --
   
 •	ESP8266 Node MCU V3
 
@@ -22,7 +22,7 @@ Nhóm 4 BDU thành viên gồm : Lê Duy Tuấn Anh 23050098 và Lý Lâm Vũ 23
 
 •	Dây USB
 
--	Nguyên lý hoạt động:
+--	Nguyên lý hoạt động --
   
 Khi có rác được đưa vào thùng:
 
