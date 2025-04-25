@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+  openhab:
+    image: "openhab/openhab:latest"
+    container_name: openhab
+    restart: always
+    network_mode: bridge
+    ports:
+      - "8080:8080"
+      - "8443:8443"
+    volumes:
+      - ./openhab_addons:/openhab/addons
+      - ./openhab_conf:/openhab/conf
+      - ./openhab_userdata:/openhab/userdata
+    environment:
+      OPENHAB_HTTP_PORT: "8080"
+      OPENHAB_HTTPS_PORT: "8443"
+      USER_ID: "1000"
+      GROUP_ID: "1000"
+      CRYPTO_POLICY: "unlimited"
+
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: mosquitto
+    restart: always
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
